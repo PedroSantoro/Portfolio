@@ -42,7 +42,7 @@ if( $fName=='' || !filter_var($email, FILTER_VALIDATE_EMAIL) || $message=='' || 
 $mail = new PHPMailer;
 
 $mail->setFrom($email, $fName);        // set from address
-$mail->addAddress('YOUREMAILADDRESS'); // Add a recipient
+$mail->addAddress('pedromsantoro246@gmail.com'); // Add a recipient
 $mail->isHTML(true);                   // Set email format to HTML
 
 $mail->Subject = 'Contact';
