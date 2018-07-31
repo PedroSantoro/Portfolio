@@ -442,7 +442,7 @@ i.corner-top-right.light{
     clear: both;
 }
 .img-responsive{
-    margin: 1em auto;
+    margin: 0em auto;
 }
 blockquote {
     margin-bottom: 10px;
@@ -1176,7 +1176,7 @@ blockquote {
     letter-spacing: 0px;
 }
 .quote {
-    margin-bottom: 10px;
+    margin-bottom: 9.5em;
     border-width: 3px;
     background-position: 21px 89%;
     background-size: 116px;
